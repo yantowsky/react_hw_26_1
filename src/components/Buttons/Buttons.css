@@ -1,0 +1,24 @@
+.buttons__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.button-results,
+.button-reset {
+  width: 13%;
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #4cb050;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.button-reset {
+  background-color: #ffb02e;
+  color: black;
+  font-weight: 700;
+}
